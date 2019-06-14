@@ -11,6 +11,7 @@ namespace CityInfo.API.Controllers
 	[Route("api/cities")]
 	public class PointsOfInterestController : Controller
 	{
+		//Comment
 		[HttpGet("{cityId}/pointsofinterest")]
 		public IActionResult GetPointsOfInterest(int cityId)
 		{
